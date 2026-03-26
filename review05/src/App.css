@@ -1,0 +1,83 @@
+.container {
+  width: 320px;
+  margin: 60px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.btn-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+.display {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 8px;
+  background: #f5f6f8;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #4a90e2;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #357bd8;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* 기본 (곱하기) */
+.btn.default {
+  background: #4a90e2;
+}
+
+.btn.default:hover {
+  background: #357bd8;
+}
+
+/* 제곱 (보조 액션) */
+.btn.square {
+  background: #7b8cff;
+}
+
+.btn.square:hover {
+  background: #5f6fe0;
+}
+
+/* 초기화 (위험/리셋) */
+.btn.reset {
+  background: #e74c3c;
+}
+
+.btn.reset:hover {
+  background: #c0392b;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
